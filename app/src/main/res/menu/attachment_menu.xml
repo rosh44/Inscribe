@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:id="@+id/attachment"
+        android:title="Attachment"
+        app:showAsAction="always"
+        android:icon="@drawable/attachment">
+        <menu>
+            <item android:id="@+id/image"
+                android:title="Image"
+                app:showAsAction="never"
+                android:icon="@drawable/img"
+                />
+            <item android:id="@+id/audio"
+                android:title="Audio"
+                app:showAsAction="never"
+                android:icon="@drawable/audio"
+                />
+
+        </menu>
+       </item>
+
+
+
+
+</menu>
